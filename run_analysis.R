@@ -245,6 +245,6 @@ fullSet <- compileFullDataSet()
 # convert the full dataset into the tidy dataset requested in the assignment
 tidyData <- tidyDataset(fullSet)
 
-# write the tidy dataset out to a csv file
-write.csv(tidyData, file = "tidydata.csv", row.names = FALSE)
+# write the tidy dataset out to a txt file
+write.table(tidyData, file = "tidydata.txt", row.names = FALSE)
 
