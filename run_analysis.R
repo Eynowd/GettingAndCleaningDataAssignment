@@ -140,7 +140,6 @@ loadDataset <- function(subDirName, requiredVariables)
     fileData <- read.delim(activityDataFilename, header = FALSE, sep = " ", stringsAsFactors = FALSE)
     activityData <- as.numeric(fileData[,1])
     
-
     # read in the names of the full list of features, and figure out how many there are    
     featureList <- readRootDataFile("features.txt")
     numFeatures <- length(featureList)
@@ -233,11 +232,9 @@ tidyDataset <- function(dataset)
     tidySet
 }
 
-
-#----------------------------------------------------------------------------------------------
+#==============================================================================================
 # Main Block - Anything below here is the main() function of the script.
-#----------------------------------------------------------------------------------------------
-
+#==============================================================================================
 # if required, download the zip file and unpack it in preparation for the rest of the analysis
 downloadData()
 
