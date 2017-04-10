@@ -246,5 +246,6 @@ fullSet <- compileFullDataSet()
 tidyData <- tidyDataset(fullSet)
 
 # write the tidy dataset out to a txt file
+message("Please wait: about to create the tidydata.txt file...")
 write.table(tidyData, file = "tidydata.txt", row.names = FALSE)
 
