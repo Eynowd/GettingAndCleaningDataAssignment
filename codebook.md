@@ -7,7 +7,7 @@ The table below describes all of the variable names in the tidy dataset. All var
 
 The **Original Feature Name** column refers to the name of the feature in the original data set.
 
-All features in the original data was normalised between \[-1, 1\].
+All features in the original data were normalised between \[-1, 1\].
 
 | Variable Name | Description | Units | Original Feature Name |
 |---------------|-------------|-------|----------------------|
