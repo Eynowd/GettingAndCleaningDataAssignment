@@ -11,7 +11,7 @@ The aim of the assignment was to create a tidy dataset meeting a certain set of 
 
 ## Tidy Data Discussion
 
-For a full discussion on the output of the **run_analysis.R** script, including a justification of which variables were included, and the meanings of all variables, please see the [Codebook][https://github.com/Eynowd/GettingAndCleaningDataAssignment/blob/master/codebook.md]
+For a full discussion on the output of the **run_analysis.R** script, including a justification of which variables were included, and the meanings of all variables, please see the [Codebook](https://github.com/Eynowd/GettingAndCleaningDataAssignment/blob/master/codebook.md)
 
 ---
 
