@@ -32,7 +32,7 @@ The following steps were used to create the tidy dataset:
     3. Load the data from the **X_ZZZ.txt** file (where ZZZ corresponds to either "test" or "train") and extract out a data frame containing all of the observations of all the features.
     4. Using the vector created in step 2, create a subset of the data frame, containing all the rows, but only the subset of columns we're interested in.
     5. Create a vector of the variable names using the vector of indices created in step 2.
-    6. Modify the names of each variable, as described below (see [**Modification of the Original Feature Names**](#Modification-of-the-Original-Feature-Names))
+    6. Modify the names of each variable, as described below (see [**Modification of the Original Feature Names**](#modification-of-the-original-feature-names))
     7. Add the variable names to the data frame created in step iv.
     8. Create a new data frame by combining the vectors in steps i, ii and vii.
 4. Combine the two data frame created in step 3 into one data frame.
