@@ -5,9 +5,11 @@
 
 The table below describes all of the variable names in the tidy dataset. All variables in this dataset are actually the **mean** of the set of corresponding factors in the original data set.
 
-The **Original Factor Name** column refers to the name of the factor in the original data set.
+The **Original Feature Name** column refers to the name of the feature in the original data set.
 
-| Variable Name | Description | Units | Original Factor Name |
+All features in the original data was normalised between \[-1, 1\].
+
+| Variable Name | Description | Units | Original Feature Name |
 |---------------|-------------|-------|----------------------|
 | activity | Human readable form of the activity being measured | NA | NA |
 | subject | Number of the subject performing the experiment | NA | NA |
